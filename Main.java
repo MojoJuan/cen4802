@@ -17,6 +17,12 @@ public class Main
     //recursively call the function fibonacci()
     return fibonacci(n-1) + fibonacci(n-2);
     }
+
+    /**
+     * @param args
+     *            calling fibonacci method for printing
+     */
+    
     //main() method 
     public static void main (String args[])
     {
