@@ -1,6 +1,13 @@
 import java.util.*;
 public class Main
 {
+    /**
+   *
+   * @param n
+   *             documenting arguments for fibonacci method
+   * @return     recursive call for sequence
+   */
+    
     //method to return the n-th fibonacci sequence number
     public static int fibonacci(int n)
     {
@@ -10,6 +17,12 @@ public class Main
     //recursively call the function fibonacci()
     return fibonacci(n-1) + fibonacci(n-2);
     }
+
+    /**
+     * @param args
+     *            calling fibonacci method for printing
+     */
+    
     //main() method 
     public static void main (String args[])
     {
